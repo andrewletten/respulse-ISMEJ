@@ -131,7 +131,7 @@ for(x in 1:nrow(mus)){
   #  pulsefreq = 24,
     resconc = c(5,5,5,5,5),
     essential = FALSE,
-    totaltime = 4000, # actual sim time = 4000 
+    totaltime = simtime,
     verbose = FALSE
   ) |> sim_rescomp()
   }
